@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    line-height: 80px;
+}
+.block{
+    padding: 0 40px;
+}
+.box{
+    width: 100%;
+    margin: 0 auto 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.userBlock{
+    width: 32%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    position: relative;
+
+}
+
+.userName{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.linkBtn{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: blue;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    text-decoration: none;
+}
